@@ -39,6 +39,9 @@ public class CarDataStorage {
     }
 
     public void addCarData(CarData carData) {
-
+        this.carData.add(carData);
+    }
+    public void clearData(){
+        this.carData = new ArrayList<>();
     }
 }
